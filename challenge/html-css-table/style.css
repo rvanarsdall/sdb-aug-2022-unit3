@@ -1,0 +1,18 @@
+table,
+th,
+td {
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+
+table {
+  margin: auto;
+}
+
+#movies {
+  text-align: center;
+}
+
+.title {
+  font-style: italic;
+}

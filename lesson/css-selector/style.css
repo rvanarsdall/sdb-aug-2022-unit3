@@ -1,0 +1,42 @@
+body {
+  background-color: beige;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#para {
+  background-color: blueviolet !important;
+  margin-top: 100px;
+}
+
+.box-model {
+  background-color: aqua;
+  width: 300px;
+  margin: 60px 50px 25px 20px;
+  padding: 5px;
+  border: 15px solid green;
+  /*       top right btm  left */
+  /* margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 60px;
+  margin-bottom: 25px; */
+}
+
+.box-model2 {
+  background-color: brown;
+}
+
+div > button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: aquamarine;
+}

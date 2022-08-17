@@ -1,0 +1,51 @@
+.wrapper {
+  margin: 5px;
+}
+
+.face {
+  width: 75px;
+  height: 75px;
+  border: solid 2px black;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.eye {
+  width: 6px;
+  height: 6px;
+  border: solid 1px black;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.left {
+  left: 32px;
+  top: 26px;
+}
+
+.right {
+  left: 54px;
+  top: 18px;
+}
+
+.mouth {
+  width: 30px;
+  height: 10px;
+  background-color: black;
+  border-radius: 0 0 45px 45px;
+  margin: 16px;
+  top: 1em;
+  left: 1em;
+  position: relative;
+}
+
+.pupil {
+  width: 2px;
+  height: 2px;
+  border: solid 1px black;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background-color: black;
+}

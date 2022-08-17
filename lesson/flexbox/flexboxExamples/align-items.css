@@ -1,0 +1,16 @@
+.container {
+  border: 5px solid black;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.logout {
+  align-self: flex-start;
+}
+/* Make the home go to the bottom... */
+
+.home {
+  align-self: flex-end;
+}
+/* flex-start, flex-end, center, stretch */

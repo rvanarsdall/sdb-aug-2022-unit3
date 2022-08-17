@@ -1,0 +1,25 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
+html,
+body {
+  background-color: hotpink;
+  margin: 10px;
+  height: 500px;
+}
+
+.container > div:nth-child(1) {
+  background-color: purple;
+}
+
+.container > div:nth-child(2) {
+  background-color: yellow;
+}
+
+.container > div:nth-child(3) {
+  background-color: aqua;
+}

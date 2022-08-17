@@ -1,0 +1,4 @@
+1) Create an index html and boiler plate
+2) title should be css-layout
+3) create styles sheet 
+4) link to page and make background of body beige.
