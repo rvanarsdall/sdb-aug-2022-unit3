@@ -9,7 +9,7 @@ html,
 body {
   background-color: hotpink;
   margin: 10px;
-  height: 500px;
+  height: 100%;
 }
 
 .container > div:nth-child(1) {
