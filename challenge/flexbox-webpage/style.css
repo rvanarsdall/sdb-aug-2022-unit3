@@ -1,0 +1,20 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: pink;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+}
