@@ -18,3 +18,37 @@
 .navbar a:hover {
   background-color: #ddd;
 }
+
+.row {
+  display: flex;
+}
+
+.side {
+  flex: 30%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.photo-placeholder {
+  background-color: pink;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: pink;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
