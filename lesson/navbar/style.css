@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+/* Change the background of the nav section to: 
+*#d2d2d2 */
+nav {
+  background-color: #d2d2d2;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+}
+/* Using selectors only (NO CLASS OR ID's) target the navagation > links*/
+/* 
+* black for the text
+* align the text to center
+* padding on top and bottom 14px
+* padding left and right 16px
+* remove the underline on the links
+* change font size to 17px
+
+*/
+
+nav a {
+  float: right;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* On hover the backgound of the link only will change to salmon */
+nav a:hover {
+  background-color: salmon;
+}
+
+#home {
+  float: left;
+}
+
+/* 
+* make the background color of the active link #add8e6
+* color of the text to be darkblue
+*/
+
+.active {
+  color: darkblue;
+  background-color: #add8e6;
+}
+
+/* When the active class is present no hover effect color change */
